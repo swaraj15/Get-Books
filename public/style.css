@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family:"Piazzolla",serif ;
+}
+html {
+  font-size: 65.5%;
+}
+.container {
+    background-image:url("https://assets.ccbp.in/frontend/dynamic-webapps/book-search-bg.png");
+    width: 100%;
+    height:54rem;
+    color:white;
+    font-size:2rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 3rem;
+    margin-top: 3rem;
+}
+.btn {
+  background-color: rgb(30, 121, 240);
+  color:white;
+  font-size: 2rem;
+  margin-top: 1.5rem;
+
+}
+.btnn {
+  background-color:white;
+  color:rgb(30, 121, 240);
+  font-size: 1.6rem;
+  margin-left: auto;
+
+}
+.form-heading {
+  font-size: 3.5rem;
+  padding-top: 6rem;
+  padding-bottom: 2rem;
+}
+.login-card-footer-text{
+  margin-top: 1.5rem;
+  font-size: 1.8rem;
+}
+.link{
+    color:white;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 1.9rem;
+}
+.error-message {
+  color: #ff0606;
+  font-family: "Roboto";
+  font-size: 1.6rem;
+}
+
+.gender{
+  padding-top: 1rem;
+  font-size: 2rem;
+}
+body{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+footer{
+  width:100%;
+  background-color: black;
+  margin-top: auto;
+}
+footer p{
+  margin:0;
+  text-align: center;
+  color:white;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  font-weight:Bold;
+}
+
+
+.row{
+  margin:0;
+}
+.bookAppImage{
+  margin-top: 5rem;
+  height: 21rem;
+  width:27rem;
+}
+.bookAppPara{
+  margin-top: 2rem;
+  font-size: 2.5rem;
+}
+.bookAppPara1{
+  margin-top: 4rem;
+  font-size: 2.5rem;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bookAppPara2{
+  font-size: 1.8rem;
+}
+.bookAppHeader
+{
+  margin-left: 8rem;
+  font-size: 4rem;
+}
+.main_menu{
+  background-color: rgb(18, 18, 78);
+  
+}
+.navbar{
+  color:white;
+  background-color:rgb(18, 18, 78); 
+  padding:1rem;
+}
+.nav-link{
+  color: white;
+  background-color: rgb(18, 18, 78);
+  font-size: 1.9rem;
+  border-color: transparent;
+}
+.nav-link:hover{
+  color:rgb(150, 16, 143);
+}
+.navbar li{
+  margin-left:2rem;
+}
+.navbar a{
+  color:white;
+  font-size: 1.9rem;
+}
+.navbar a:hover{
+  color:rgb(150, 16, 143);
+}
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size:  0.75rem;
+    line-height: 1;
+    background-color: rgb(128, 96, 8);
+    border: 0.5rem solid transparent;
+    border-radius: .45rem;
+}
+
+.main_header_left{
+  height:60.15rem;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.main_header_right{
+  height:60.15rem;
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.carousel-item {
+  height: 100%;
+  overflow: hidden;
+  width: 13rem;
+  }
+  .carousel-item img {
+  width: 13rem;
+  }
+.w-100{
+  border-radius: 1rem;
+  height: 15rem;
+  width: 13rem;
+}
+
+.search-input {
+  font-size: 2rem;
+  border-style: solid;
+  border-width: 0.1rem;
+  border-color: #d5cdcd;
+  border-radius: 0.4rem;
+  padding: 1.2rem;
+  margin-top: 7rem;
+  margin-bottom: 5rem;
+  width: 28rem;
+}
+.form-control{
+  font-size:1.8rem;
+  height:2.8rem;
+  padding-left :1rem;
+  width:auto;
+}
+
+.search-results {
+  width: 100%;
+  padding-left: 2rem;
+}
+
+.result-item {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  
+}
+
+.result-title {
+  font-size: 2.2rem;
+  margin-top: 2rem;
+  color:rgb(113, 3, 177);
+}
+
+.link-description {
+  color: #444444;
+  font-size: 1.8rem;
+}
+.imgc{
+  padding-right: 3rem;
+}
